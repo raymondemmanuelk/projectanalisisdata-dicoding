@@ -7,6 +7,7 @@ cd projek_ecommerce_dashboard
 pipenv install
 pipenv shell
 pip install -r requirements.txt
+```
 
 ## Run Streamlit app
 streamlit run dashboard.py
