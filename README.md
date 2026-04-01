@@ -10,4 +10,6 @@ pip install -r requirements.txt
 ```
 
 ## Run Streamlit app
+```bash
 streamlit run dashboard.py
+```
