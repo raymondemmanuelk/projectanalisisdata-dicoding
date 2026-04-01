@@ -1,6 +1,7 @@
-# **E-Commerce Dashboard by Raymond Emmanuel Krista**
+# E-Commerce Dashboard by Raymond Emmanuel Krista
 
 ## Setup Environment - Terminal / Shell
+```bash
 mkdir projek_ecommerce_dashboard
 cd projek_ecommerce_dashboard
 pipenv install
