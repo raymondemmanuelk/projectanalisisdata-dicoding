@@ -349,7 +349,7 @@ with tab1:
         (top_frequency, 'frequency', 'By Frequency',      ax3[1]),
         (top_monetary,  'monetary',  'By Monetary (R$)',  ax3[2]),
     ]:
-        sns.barplot(y=col, x='customer_id', data=data, palette=rfm_palette, ax=axis)
+        sns.barplot(y=col, x='customer_id', data=data, hue='customer_id', palette=rfm_palette, ax=axis, legend=False)
         axis.set_title(title, fontsize=14, fontweight='bold', pad=10)
         axis.set_xlabel('Customer ID', fontsize=10)
         axis.set_ylabel(None)
